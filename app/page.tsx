@@ -47,10 +47,8 @@ export default function JsonListFinder() {
           if (result) return result;
         }
       }
-
       return null;
     };
-
     return search(obj);
   };
 
@@ -62,7 +60,7 @@ export default function JsonListFinder() {
 
     const key = searchKey.trim();
     if (!key) {
-      setError('Please enter a key to search!');
+      setError('Could not find any GIFs in the JSON file!');
       return;
     }
 
@@ -84,15 +82,6 @@ export default function JsonListFinder() {
       setError(`Key "${key}" not found or does not contain a list/array in the JSON file.`);
       setResults(null);
     }
-  };
-
-  const formatValue = (value: any): string => {
-    if (Array.isArray(value)) {
-      return value.join(', ');
-    } else if (typeof value === 'object' && value !== null) {
-      return JSON.stringify(value, null, 2);
-    }
-    return String(value);
   };
 
   const openAllGIFs = (results: Map<string, string>) => {
