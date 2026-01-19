@@ -1,7 +1,7 @@
 # dc-gif-exporter
 
 > [!IMPORTANT]
-> This requres you to request a discord data export of your account data.
+> This requires you to request a discord data export of your account data.
 > 
 > While there is some personal data about your account stored in the user.json file, the page is fully client side and no data is sent to any server. - Feel free to check for yourself.
 
