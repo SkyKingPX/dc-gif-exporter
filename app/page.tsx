@@ -119,7 +119,8 @@ export default function JsonListFinder() {
             <p className="my-0.5 text-gray-600 font-semibold">2. I do not own a tenor API key to be able to serve you a downloadable zip of all GIFs so you need to open each link yourself and save the GIF</p>
             <p className="my-0.5 text-gray-600 font-semibold">3. Even though the user.json file contains some personal infomation, nobody, including me, can access it because the code is processed in your browser and not on the server. (If you still want to check, <a href="https://github.com/SkyKingPX/dc-gif-exporter" target="_blank" className="underline text-purple-600">here's the GitHub repo.</a>)</p>
             <p className="my-0.5 text-gray-600 font-semibold">4. If you use the automatic download function, this will open [insert amount of GIFs saved to your account] tabs immediately so using a desktop device is recommended!</p>
-            <p className="my-0.5 text-gray-600 font-semibold">5. If you have any questions, feel free to open an issue on the GitHub repo.</p>
+            <p className="my-0.5 text-gray-600 font-semibold">5. The download function will not work until you disable all of your popup blockers and allow the page to open popups</p>
+            <p className="my-0.5 text-gray-600 font-semibold">6. If you have any questions, feel free to open an issue on the GitHub repo.</p>
           </div>
 
           {/* Upload Section */}
