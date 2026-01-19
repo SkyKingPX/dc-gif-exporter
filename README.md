@@ -10,3 +10,5 @@ This is a Discord GIF exporter designed to help you save all of your GIFs due to
 Feel free to use the `Download All` function but be warned that **will** slow down your device for a while du to it opening a lage amount of tabs.
 
 Read more on https://dc-gif-exporter.vercel.app/
+
+Contributions and suggestions are welcome!
