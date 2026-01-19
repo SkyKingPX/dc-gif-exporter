@@ -107,7 +107,7 @@ export default function JsonListFinder() {
       <div className="max-w-8xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-purple-600 to-purple-800 text-white p-6 text-center">
-          <h1 className="text-4xl font-bold mb-2">Discord Tenor Gif Finder</h1>
+          <h1 className="text-4xl font-bold mb-2">Discord Tenor GIF Exporter</h1>
           <p className="text-purple-100">Upload your user.json file from a discord data package to list and download all tenor GIFs</p>
         </div>
 
