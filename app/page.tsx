@@ -103,7 +103,7 @@ export default function JsonListFinder() {
         {/* Content */}
         <div className="p-8">
           <div className="bg-yellow-50 border border-yellow-400 rounded-lg p-5 mb-7 flex flex-col justify-center items-center">
-            <p className="my-0.5 text-gray-600 font-semibold">Due to Tenor shutting down on June 30th, I created this page to be able to quickly find all of your GIFs in an exported discord data package without dealink with ~40k lines of JSON.</p>
+            <p className="my-0.5 text-gray-600 font-semibold">Due to Tenor shutting down on June 30th, I created this page to be able to quickly find all of your GIFs in an exported discord data package without dealing with ~40k lines of JSON.</p>
             <p className="my-0.5 text-gray-600 font-semibold">1. Your account JSON is located in package/Account/user.json</p>
             <p className="my-0.5 text-gray-600 font-semibold">2. I do not own a tenor API key to be able to serve you a downloadable zip of all GIFs so you need to open each link yourself and save the GIF</p>
             <p className="my-0.5 text-gray-600 font-semibold">3. Even though the user.json file contains some personal infomation, nobody, including me, can access it because the code is processed in your browser and not on the server. (If you still want to check, <a href="https://github.com/SkyKingPX/dc-gif-exporter" target="_blank" className="underline text-purple-600">here's the GitHub repo.</a>)</p>
